@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/youtub', (req, res) => {
+  res.send('Hello youtub!')
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
